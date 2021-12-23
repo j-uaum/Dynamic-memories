@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('lobinho.png');
+    background-position: center;
+    background-size: cover;
+    width:90%; margin: 0 auto; min-width:200px; max-width:2000px;
+}
+.topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-bottom: solid antiquewhite 0.3px;
+}
+
+.topo-img{
+    height: 72px;
+
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+ .item-menu{
+    font-family: 'Sarala', sans-serif;
+    color:antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
+ }
+ section{
+    
+    display: flex;
+    text-align:justify;
+    font-family: 'Sarala', sans-serif;
+    line-height: 20px;
+    background-color: ;
+    border-radius: 10px;
+    padding: 15px 15px 15px;
+   /* width: 550px;*/
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.787);
+    
+
+    
+    
+}
+.footer{
+    padding: 32px ;
+    border-top: solid antiquewhite 0.3px;
+    
+    
+   
+}
+.footer-img{
+   height: 48px;
+   display: block;
+   margin: 0 auto;
+
+   
+   }
+
+  #eu{
+      display: flex;
+      justify-content: center;
+  }
+
+  .texto{
+    font-family: font-family: 'Sarala', sans-serif;
+    color: #ECD6C4 ;
+    font-weight: 400;
+    font-size: 22px;
+    
+  }
