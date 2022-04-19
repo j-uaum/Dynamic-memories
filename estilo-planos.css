@@ -176,7 +176,7 @@ body{
 
  #app {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-columns: repeat(auto-fill, 900px);
     padding: 24px;
     gap: 24px;
   }
