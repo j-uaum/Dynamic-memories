@@ -10,13 +10,44 @@
 
 body{
     font-size: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('lobinho.png');
+    /*background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('lobinho.png');
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
 
     
 
 }
+
+
+.grad{
+
+    
+    font-size: 100%;
+   
+    background: linear-gradient(45deg, #22142b, #003E67, #dba49d);
+    
+    background-size: 300% 300%;
+    animation: cores 15s ease infinite;
+
+}
+
+@keyframes cores{
+
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+
 .topo{
     display: flex;
     flex-direction: row;
