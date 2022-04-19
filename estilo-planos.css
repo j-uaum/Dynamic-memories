@@ -43,6 +43,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+    border-bottom: solid antiquewhite 0.3px;
 }
 
 .topo-img{
