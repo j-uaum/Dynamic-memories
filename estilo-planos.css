@@ -37,7 +37,28 @@
 
 }
 
+.topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
 
+.topo-img{
+    height: 72px;
+
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+ .item-menu{
+    font-family: 'Sarala', sans-serif;
+    color:antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
+ }
 
 
 .footer{
@@ -70,7 +91,7 @@
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
-   /* resize: none;*/
+    resize: none;
     font-family: sans-serif;
     font-size: 16px;
   }
